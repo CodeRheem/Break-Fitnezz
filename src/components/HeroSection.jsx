@@ -1,5 +1,5 @@
 import React from "react";
-import bgImage from "./../../public/victor-freitas-WvDYdXDzkhs-unsplash.jpg"
+// import bgImage from "./../../public/victor-freitas-WvDYdXDzkhs-unsplash.jpg"
 
 export default function HeroSection(){   
     return(
@@ -8,7 +8,7 @@ export default function HeroSection(){
             <div 
                 className="absolute inset-0 w-full h-full"
                 style={{ 
-                    backgroundImage: `url(${bgImage})`,
+                    backgroundImage: `url(/victor-freitas-WvDYdXDzkhs-unsplash.jpg)`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat'
