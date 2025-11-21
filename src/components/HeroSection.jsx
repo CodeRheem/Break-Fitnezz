@@ -1,5 +1,5 @@
 import React from "react";
-import bgImage from "../assets/victor-freitas-WvDYdXDzkhs-unsplash.jpg"
+import bgImage from "./../../public/victor-freitas-WvDYdXDzkhs-unsplash.jpg"
 
 export default function HeroSection(){   
     return(
