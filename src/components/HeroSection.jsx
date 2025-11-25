@@ -51,7 +51,7 @@ export default function HeroSection(){
 
                                 <div className="flex justify-center flex-col sm:flex-row gap-4 sm:gap-7">
                                     <button className="bg-green-600 text-black border font-bold py-3 px-8 rounded-2xl">
-                                        <a href="#contact">Start Your Tranformation</a>
+                                        <a href="#contactUs">Start Your Tranformation</a>
                                     </button>
 
                                     <button className="hover:bg-white hover:text-black border text-white font-bold py-3 px-8 rounded-2xl">
