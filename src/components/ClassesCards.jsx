@@ -75,7 +75,7 @@ export default function ClassesCards() {
                 key={index}
                 className={`relative rounded-2xl bg-cover bg-center cursor-pointer transition-all duration-500 ease-in-out overflow-hidden
                   ${index === activeSlide
-                    ? "md:flex-[3] flex-auto h-64 md:h-[380px] border-2 border-green-600"
+                    ? "md:flex-3 flex-auto h-64 md:h-[380px] border-2 border-green-600"
                     : "md:flex-[0.7] flex-[0.9] h-44 md:h-[380px] hover:md:flex-[1.1] hover:flex-[1.02]"}
                 `}
                 style={{
@@ -86,7 +86,7 @@ export default function ClassesCards() {
               >
                 {/* Text overlay */}
                 <div
-                  className={`absolute inset-0 flex flex-col justify-end p-5 md:p-8 bg-gradient-to-t from-black/70 to-transparent transition-opacity duration-500 rounded-2xl
+                  className={`absolute inset-0 flex flex-col justify-end p-5 md:p-8 bg-linear-to-t from-black/70 to-transparent transition-opacity duration-500 rounded-2xl
                     ${index === activeSlide ? "opacity-100" : "opacity-90 md:opacity-80"}
                   `}
                 >
